@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rogelio_performance",
+  "version": "${version}",
+  "name": "Rogelio Performance",
+  "description": "Herramientas iniciales de diagnóstico para estudiar la estabilidad de FPS durante la exploración con Voxy.",
+  "authors": ["Rogelio"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rogelio.performance.RogelioPerformanceClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
